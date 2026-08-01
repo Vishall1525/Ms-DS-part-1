@@ -2,9 +2,9 @@ pipeline{
 	agent any 
 	
 	stages{
-		stage('Hello'){
+		stage('Checkout'){
 			steps{
-				echo 'Hello from Jenkins!'
+				echo 'Cloning Repository'
 				}
 			}
 		}
